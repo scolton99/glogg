@@ -317,6 +317,7 @@ void MainWindow::createActions()
     followAction = new QAction( tr("&Follow File"), this );
     followAction->setShortcut(Qt::Key_F);
     followAction->setCheckable(true);
+    followAction->setChecked(true);
     connect( followAction, SIGNAL(toggled( bool )),
             this, SIGNAL(followSet( bool )) );
 

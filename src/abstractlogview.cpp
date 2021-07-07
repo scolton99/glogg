@@ -252,7 +252,7 @@ AbstractLogView::AbstractLogView(const AbstractLogData* newLogData,
 {
     logData = newLogData;
 
-    followMode_ = false;
+    followMode_ = true;
 
     selectionStarted_ = false;
     markingClickInitiated_ = false;
